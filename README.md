@@ -1,0 +1,11 @@
+## **CineSense AI – App Summary**
+
+**CineSense AI** is an AI-powered cinematic movie analysis platform that helps users instantly determine whether a movie is worth watching. Users can simply **type a movie title** or **paste a supported movie or streaming link**, and the app automatically identifies the film, gathers trusted public information, analyzes available ratings, and presents an engaging, easy-to-understand verdict.
+
+Rather than showing only ratings, CineSense AI combines factual movie data with AI-generated insights to deliver a complete viewing guide. It displays **IMDb, Rotten Tomatoes (Critics & Audience), Metacritic, TMDb, Letterboxd (when available), runtime, genres, cast, director, streaming availability, and box-office information**, then summarizes the movie into one clear verdict such as **👑 Peak Cinema**, **⭐ Must Watch**, **😐 Average**, or **🗑️ Skip**.
+
+The platform's standout feature is its **detailed Content Warning System**, which goes beyond a simple "18+" label. It identifies mature content categories individually—including **graphic gore, strong violence, body horror, disturbing imagery, sexual content, nudity, drug use, alcohol, smoking, strong language, psychological horror, jump scares, torture, child endangerment, war violence, and emotional intensity**—each accompanied by a severity level (Low, Moderate, High, or Extreme). This helps viewers make informed decisions before watching.
+
+The interface is designed as a premium **cinematic AI dashboard**, featuring glassmorphism, animated movie scans, dynamic backgrounds that adapt to the movie's genre, smooth transitions, interactive charts, and immersive micro-animations. Alongside factual information, the AI provides **spoiler-free summaries, strengths and weaknesses, mood recommendations, rewatch value, similar movie suggestions, community sentiment, fun statistics, and humorous AI-generated roasts** to make the experience both informative and entertaining.
+
+Overall, **CineSense AI** transforms ordinary movie lookup into an immersive AI-powered decision assistant, combining trusted movie data, intelligent analysis, detailed content advisories, and cinematic presentation to help users quickly decide whether a movie deserves their time.
