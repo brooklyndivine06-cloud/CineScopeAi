@@ -9,7 +9,8 @@ import { extname, join, normalize, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
-const PORT = Number(process.argv[2] ?? process.env.PORT ?? 5173);
+const preferredPort = Number(process.argv[2] ?? process.env.PORT ?? 5173);
+let PORT = preferredPort;
 
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -58,6 +59,17 @@ const server = createServer(async (req, res) => {
   }
 });
 
+server.on('error', (error) => {
+  if (error.code === 'EADDRINUSE' && PORT < preferredPort + 10) {
+    console.log(`Port ${PORT} is busy — trying ${PORT + 1}…`);
+    PORT += 1;
+    server.listen(PORT, '0.0.0.0');
+    return;
+  }
+  console.error(`Could not start CineScope: ${error.message}`);
+  process.exit(1);
+});
+
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`CineScope AI → http://0.0.0.0:${PORT}`);
+  console.log(`CineScope AI → http://localhost:${PORT}`);
 });

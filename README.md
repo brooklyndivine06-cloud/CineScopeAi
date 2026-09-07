@@ -54,12 +54,19 @@ profile, who it lands with (and who should skip it), a watch plan, cast and crew
 ## Running it
 
 ```bash
-npm start          # static server on http://0.0.0.0:5173
-npm test           # 93 tests, node's built-in runner
+npm start                  # http://localhost:5173  (picks the next free port if busy)
+node tools/serve.js 8080   # or pick a port yourself
+npm test                   # 93 tests, node's built-in runner
 ```
 
-No build step. The site is plain ES modules, so it also works by dropping the folder on GitHub
-Pages, Netlify or any static host (`CNAME` is already set to `cinescopeai.fr`).
+Requires Node 18+ for the test runner (the server itself needs nothing but Node). `npm install` is
+only needed for the tests — it pulls in `jsdom` as a devDependency. **The app has no runtime
+dependencies and no build step.**
+
+Opening `index.html` straight from disk (`file://`) will not work: ES modules are blocked by CORS
+without an HTTP origin. Any static server does — `python3 -m http.server`, `npx serve`, nginx, or
+dropping the folder on GitHub Pages / Netlify / Cloudflare Pages (`CNAME` is already set to
+`cinescopeai.fr`).
 
 ### Optional: the full catalogue
 
