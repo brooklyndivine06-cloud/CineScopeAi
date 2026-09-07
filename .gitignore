@@ -1,0 +1,14 @@
+# Dependencies (test tooling only — the app itself has no runtime deps)
+node_modules/
+
+# Test / tooling output
+coverage/
+.nyc_output/
+*.log
+
+# Editors & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

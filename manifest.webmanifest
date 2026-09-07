@@ -1,0 +1,23 @@
+{
+  "name": "CineScope AI",
+  "short_name": "CineScope",
+  "description": "One verdict for any film — blended ratings, real content advisories, and a watch plan. Works offline.",
+  "id": "/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#08090d",
+  "theme_color": "#08090d",
+  "categories": ["entertainment", "utilities", "books"],
+  "shortcuts": [
+    { "name": "Search films", "url": "./index.html#/" },
+    { "name": "Watchlist", "url": "./index.html#/list" },
+    { "name": "Compare", "url": "./index.html#/compare" }
+  ],
+  "icons": [
+    { "src": "./assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
