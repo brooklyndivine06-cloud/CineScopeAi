@@ -1,0 +1,19 @@
+{
+  "name": "Anugrah A — Portfolio",
+  "short_name": "Anugrah",
+  "description": "Computer Science & Engineering student. Building digital experiences with code, design and curiosity.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070c",
+  "theme_color": "#05070c",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities"]
+}
