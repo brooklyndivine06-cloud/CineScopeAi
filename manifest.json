@@ -1,18 +1,19 @@
 {
-  "name": "CineSense AI",
-  "short_name": "CineSense",
-  "description": "Intelligent AI Movie Analyzer — Instant verdicts, ratings, content warnings, and cinematic insights.",
-  "start_url": "/index.html",
+  "name": "Anugrah A — Portfolio",
+  "short_name": "Anugrah",
+  "description": "Computer Science & Engineering student. Building digital experiences with code, design and curiosity.",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a0a0f",
-  "theme_color": "#0a0a0f",
+  "background_color": "#05070c",
+  "theme_color": "#05070c",
   "orientation": "any",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230a0a0f' stroke='%2300f0ff' stroke-width='3'/><circle cx='50' cy='50' r='20' fill='none' stroke='%2300f0ff' stroke-width='2'/><circle cx='50' cy='50' r='8' fill='%2300f0ff'/></svg>",
+      "src": "/icon.svg",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ],
-  "categories": ["entertainment", "utilities"]
+  "categories": ["productivity", "utilities"]
 }
